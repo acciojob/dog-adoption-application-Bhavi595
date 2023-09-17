@@ -1,21 +1,37 @@
-.main1{
-    width: 50%;
-    background-color: red;
-    text-align:center;
-    height: auto;
+#name{
+height:20px;
+width:200px;
 }
-
-.body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#phone{
+height:20px;
+width:200px;
 }
-
-
-.abc{
-    width: 90%;
+#address{
+height:20px;
+width:200px;
 }
-
-#sumit{
-    width: 50px;
+.main-form{
+/* 	display:flex; */
+	width:300px;
+	background-color:blue;
+/* 	display-direction:column; */
+/* 	justify-content:center; */
+/* 	align-items:center; */
+	
+	
 }
+body{
+		display:flex;
+	height:100vh;
+/* 	 	display-direction:column; */
+	justify-content:center;
+	align-items:center;
+}
+#checkbox{
+	border-radius:50%;
+	border:5px solid yellow;
+}
+#submit{
+	border-radius:10px;
+}
+/* Your CSS Code here. */
