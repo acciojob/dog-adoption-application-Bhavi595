@@ -1,9 +1,21 @@
-
-/* Your CSS Code here. */
-#name{
-	width:100%
+.main1{
+    width: 50%;
+    background-color: red;
+    text-align:center;
+    height: auto;
 }
 
-#main{
-	width:400px;
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.abc{
+    width: 90%;
+}
+
+#sumit{
+    width: 50px;
 }
